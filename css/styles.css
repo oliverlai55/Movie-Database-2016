@@ -33,6 +33,7 @@
 
 /* line 31, ../compass/sass/main.scss */
 #intro-page-wrapper button {
+  border-radius: 2px;
   text-transform: uppercase;
   text-align: center;
   width: 225px;
@@ -46,38 +47,38 @@
   letter-spacing: 3px;
 }
 
-/* line 45, ../compass/sass/main.scss */
+/* line 46, ../compass/sass/main.scss */
 #intro-page-wrapper button:hover {
   cursor: pointer;
   background-color: #a3a3ad;
 }
 
-/* line 50, ../compass/sass/main.scss */
+/* line 51, ../compass/sass/main.scss */
 #movie-wrapper {
   color: white;
 }
-/* line 52, ../compass/sass/main.scss */
+/* line 53, ../compass/sass/main.scss */
 #movie-wrapper img {
   width: 100%;
 }
-/* line 55, ../compass/sass/main.scss */
+/* line 56, ../compass/sass/main.scss */
 #movie-wrapper .search-form {
   margin-top: 20px;
   text-align: center;
 }
-/* line 59, ../compass/sass/main.scss */
+/* line 60, ../compass/sass/main.scss */
 #movie-wrapper .movie-row {
   overflow: hidden;
   clear: both;
   margin: 10px;
 }
-/* line 63, ../compass/sass/main.scss */
+/* line 64, ../compass/sass/main.scss */
 #movie-wrapper .movie-row .now-playing-movie {
   float: left;
   width: 23%;
   margin: 1%;
 }
-/* line 69, ../compass/sass/main.scss */
+/* line 70, ../compass/sass/main.scss */
 #movie-wrapper .modal {
   background-color: black;
   opacity: 0.85;
