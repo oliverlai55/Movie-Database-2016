@@ -3,7 +3,7 @@
 	overflow: scroll;
 	position: absolute;
 	width: 100%;
-	background-color: rgba(64,64,64,0.95);
+	background-color: rgba(25,25,51,0.95);
 	top: 0px;
 	left: 0px;
 	z-index: 1000000000;
@@ -11,10 +11,10 @@
 }
 
 #intro-page-wrapper h1{
-	font-family: 'Varela Round', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+	margin-top: 3%
 }
 
 #intro-page-wrapper p{
@@ -22,21 +22,19 @@
 	width: 60%;
 	margin: auto;
 	text-align: justify;
-	font-size: 16px;
-	padding-top: 20px;
+	font-size: 20px;
+	padding-top: 25px;
 	padding-bottom: 20px;
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
 
 #intro-page-wrapper button{
-	font-family: 'Varela Round', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	width: 225px;
 	padding: 15px;
 	color: white;
-	background-color: orange;
+	background-color: #757584;
 	margin: auto;
 	font-size: 18px;
 	margin-top: 30px;
@@ -46,7 +44,7 @@
 
 #intro-page-wrapper button:hover{
 	cursor: pointer;
-	background-color: #ffc04d;
+	background-color: #a3a3ad;
 }
 
 #movie-wrapper{

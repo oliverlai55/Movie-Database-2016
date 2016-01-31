@@ -4,7 +4,7 @@
   overflow: scroll;
   position: absolute;
   width: 100%;
-  background-color: rgba(64, 64, 64, 0.95);
+  background-color: rgba(25, 25, 51, 0.95);
   top: 0px;
   left: 0px;
   z-index: 1000000000;
@@ -13,10 +13,10 @@
 
 /* line 13, ../compass/sass/main.scss */
 #intro-page-wrapper h1 {
-  font-family: 'Varela Round', sans-serif;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
+  margin-top: 3%;
 }
 
 /* line 20, ../compass/sass/main.scss */
@@ -25,22 +25,20 @@
   width: 60%;
   margin: auto;
   text-align: justify;
-  font-size: 16px;
-  padding-top: 20px;
+  font-size: 20px;
+  padding-top: 25px;
   padding-bottom: 20px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
-/* line 32, ../compass/sass/main.scss */
+/* line 31, ../compass/sass/main.scss */
 #intro-page-wrapper button {
-  font-family: 'Varela Round', sans-serif;
   text-transform: uppercase;
   text-align: center;
   width: 225px;
   padding: 15px;
   color: white;
-  background-color: orange;
+  background-color: #757584;
   margin: auto;
   font-size: 18px;
   margin-top: 30px;
@@ -48,38 +46,38 @@
   letter-spacing: 3px;
 }
 
-/* line 47, ../compass/sass/main.scss */
+/* line 45, ../compass/sass/main.scss */
 #intro-page-wrapper button:hover {
   cursor: pointer;
-  background-color: #ffc04d;
+  background-color: #a3a3ad;
 }
 
-/* line 52, ../compass/sass/main.scss */
+/* line 50, ../compass/sass/main.scss */
 #movie-wrapper {
   color: white;
 }
-/* line 54, ../compass/sass/main.scss */
+/* line 52, ../compass/sass/main.scss */
 #movie-wrapper img {
   width: 100%;
 }
-/* line 57, ../compass/sass/main.scss */
+/* line 55, ../compass/sass/main.scss */
 #movie-wrapper .search-form {
   margin-top: 20px;
   text-align: center;
 }
-/* line 61, ../compass/sass/main.scss */
+/* line 59, ../compass/sass/main.scss */
 #movie-wrapper .movie-row {
   overflow: hidden;
   clear: both;
   margin: 10px;
 }
-/* line 65, ../compass/sass/main.scss */
+/* line 63, ../compass/sass/main.scss */
 #movie-wrapper .movie-row .now-playing-movie {
   float: left;
   width: 23%;
   margin: 1%;
 }
-/* line 71, ../compass/sass/main.scss */
+/* line 69, ../compass/sass/main.scss */
 #movie-wrapper .modal {
   background-color: black;
   opacity: 0.85;
