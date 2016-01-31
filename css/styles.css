@@ -1,0 +1,86 @@
+/* line 1, ../compass/sass/main.scss */
+#intro-page-wrapper {
+  text-align: center;
+  overflow: scroll;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(64, 64, 64, 0.95);
+  top: 0px;
+  left: 0px;
+  z-index: 1000000000;
+  color: #f2f2f2;
+}
+
+/* line 13, ../compass/sass/main.scss */
+#intro-page-wrapper h1 {
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* line 20, ../compass/sass/main.scss */
+#intro-page-wrapper p {
+  line-height: 125%;
+  width: 60%;
+  margin: auto;
+  text-align: justify;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* line 32, ../compass/sass/main.scss */
+#intro-page-wrapper button {
+  font-family: 'Varela Round', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  width: 225px;
+  padding: 15px;
+  color: white;
+  background-color: orange;
+  margin: auto;
+  font-size: 18px;
+  margin-top: 30px;
+  border: 0px;
+  letter-spacing: 3px;
+}
+
+/* line 47, ../compass/sass/main.scss */
+#intro-page-wrapper button:hover {
+  cursor: pointer;
+  background-color: #ffc04d;
+}
+
+/* line 52, ../compass/sass/main.scss */
+#movie-wrapper {
+  color: white;
+}
+/* line 54, ../compass/sass/main.scss */
+#movie-wrapper img {
+  width: 100%;
+}
+/* line 57, ../compass/sass/main.scss */
+#movie-wrapper .search-form {
+  margin-top: 20px;
+  text-align: center;
+}
+/* line 61, ../compass/sass/main.scss */
+#movie-wrapper .movie-row {
+  overflow: hidden;
+  clear: both;
+  margin: 10px;
+}
+/* line 65, ../compass/sass/main.scss */
+#movie-wrapper .movie-row .now-playing-movie {
+  float: left;
+  width: 23%;
+  margin: 1%;
+}
+/* line 71, ../compass/sass/main.scss */
+#movie-wrapper .modal {
+  background-color: black;
+  opacity: 0.85;
+}
